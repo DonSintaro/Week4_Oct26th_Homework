@@ -1,0 +1,78 @@
+body{
+    background-color:white;
+}
+
+#outerC{
+    padding:5rem;
+}
+
+.noMarPad{
+    margin:0;
+    padding:0;
+}
+
+#pageHeading{
+    text-align: center;
+}
+
+#innerC{
+    
+    margin-top:3rem;
+    background-color:rgb(245, 245, 245);
+    box-shadow:  0rem 0rem 10px grey;
+    padding:1rem;
+}
+
+
+
+.btn{
+    margin-left:5%;
+    height: 100px;
+    width: 200px;
+}
+
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+
+.col-12{
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    padding:1rem;
+}
+
+@media screen and (max-width: 767px){
+    .btn{
+        width: 100%;
+        margin-left:0;
+        
+    }
+    #innerC{
+        text-align: center;
+    }
+
+    #outerC{
+        padding:3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+
+    #innerC{
+        padding:0;
+        
+    }
+    #outerC{
+        padding:0;
+        margin-right:0;
+        margin-left:0;
+    }
+    .container{
+        margin-right:0;
+        margin-left:0;
+    }
+
+}
