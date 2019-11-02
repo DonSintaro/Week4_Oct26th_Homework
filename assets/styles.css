@@ -23,6 +23,18 @@ body{
     padding:1rem;
 }
 
+span{
+    font-size: 1rem;
+}
+
+
+#pageHeading{
+    font-size: 5rem;
+}
+
+#questionTitle{
+    margin-bottom:2rem;
+}
 
 
 .btn{
