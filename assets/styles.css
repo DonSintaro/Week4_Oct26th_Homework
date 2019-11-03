@@ -1,22 +1,41 @@
 body{
     background-color:white;
+    width: 100%;
 }
 
 #outerC{
     padding:5rem;
 }
 
+#fixedTime{
+    position:fixed;
+    right:15%;
+    top:0;
+    visibility: hidden;
+}
+
+li {
+    list-style-type: none;
+    background-color: white;
+    font-size: 1.75rem;
+    border-radius: 40%;
+  }
+
+
+
 .noMarPad{
     margin:0;
     padding:0;
 }
 
-#pageHeading{
+.pageHeading{
     text-align: center;
+    
 }
 
 #innerC{
-    
+    margin-left:0;
+    margin-right:0;
     margin-top:3rem;
     background-color:rgb(245, 245, 245);
     box-shadow:  0rem 0rem 10px grey;
@@ -26,7 +45,9 @@ body{
 span{
     font-size: 1rem;
 }
-
+.maxWidthDiv{
+    width: 100%;
+}
 
 #pageHeading{
     font-size: 5rem;
@@ -37,15 +58,10 @@ span{
 }
 
 
-.btn{
+.startB{
     margin-left:5%;
     height: 100px;
     width: 200px;
-}
-
-.row{
-    margin-left:0;
-    margin-right:0;
 }
 
 .col-12{
@@ -54,11 +70,47 @@ span{
     padding:1rem;
 }
 
+
+
+#result{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    border-top: solid gray 1px;
+    visibility: hidden;
+}
+
+.scorePrep{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.yourScore{
+    text-align: center;
+    color:darkblue;
+}
+
+.scoreBoard{
+    width: 100%;
+}
+
+#restart{
+    background-color: rgb(95, 76, 95);
+
+}
+#clear{
+    background-color: rgb(53, 0, 0);
+}
+
+
 @media screen and (max-width: 767px){
     .btn{
         width: 100%;
         margin-left:0;
         
+    }
+    #pageHeading{
+        font-size: 4rem;
     }
     #innerC{
         text-align: center;
@@ -73,6 +125,9 @@ span{
 
 @media screen and (max-width: 576px){
 
+    #pageHeading{
+        font-size: 3rem;
+    }
     #innerC{
         padding:0;
         
