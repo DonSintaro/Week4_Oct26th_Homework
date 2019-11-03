@@ -6,5 +6,7 @@ The questions will randomize as well as the answer choices so it will take actua
 
 it also stores the highscores up to top 5 and can be cleared at users wish.
 
+timer is top right.
+
 
 https://donsintaro.github.io/Week4_Oct26th_Homework/
